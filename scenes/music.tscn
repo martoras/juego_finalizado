@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckuplralawtne"]
+
+[ext_resource type="AudioStream" uid="uid://ekat0tv0qv1s" path="res://assets/music/Cha-Cappella-–-Jimmy-Fontanez_-Media-Right-Productions-_No-Copyright-Music__5gj2WkkEcIE.wav" id="1_ik8hy"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_ik8hy")
+autoplay = true
+bus = &"Music"
