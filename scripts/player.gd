@@ -1,11 +1,21 @@
 extends CharacterBody2D
 
+@onready var piedra = preload("res://scenes/piedra.tscn")
+var p
 
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var mark = $Marker2D
 
+
+func shoot():
+	if Input.is_action_just_pressed("shoot"):
+		p = piedra.instantiate()
+		get_parent().add_child(p)
+		p.global_position = mark.global_position
+		
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
@@ -40,3 +50,4 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+	shoot()
