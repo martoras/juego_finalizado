@@ -1,0 +1,45 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1729752428
+default_bus_layout.tres::AudioBusLayout::5468075954785174765::1729752341::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1729752341::0::1::::<><>::
+icon.svg::CompressedTexture2D::842703784790827056::1729752341::1729752429::1::::<><>::
+::res://assets/::1729752341
+LICENSE & CREDITS.txt::TextFile::-1::1729752340::0::1::::<><>::
+::res://assets/fonts/::1729752340
+PixelOperator8-Bold.ttf::FontFile::7402524828956128400::1729752340::1729752429::1::::<><>::
+PixelOperator8.ttf::FontFile::8443834035650775233::1729752340::1729752429::1::::<><>::
+::res://assets/music/::1729752341
+Cha-Cappella-–-Jimmy-Fontanez_-Media-Right-Productions-_No-Copyright-Music__5gj2WkkEcIE.wav::AudioStreamWAV::301434425600164170::1729752341::1729752429::1::::<><>::
+Grabación-_3_.wav::AudioStreamWAV::1280366336237096752::1729752341::1729752429::1::::<><>::
+time_for_adventure.mp3::AudioStreamMP3::8932074101748692748::1729752341::1729752429::1::::<><>::
+::res://assets/sounds/::1729752341
+coin.wav::AudioStreamWAV::1920656082063080543::1729752341::1729752429::1::::<><>::
+explosion.wav::AudioStreamWAV::694881964998854114::1729752341::1729752429::1::::<><>::
+Grabación-_2_ (mp3cut.net).wav::AudioStreamWAV::7788157235852554781::1729752341::1729752429::1::::<><>::
+hurt.wav::AudioStreamWAV::4105101740823011906::1729752341::1729752429::1::::<><>::
+jump.wav::AudioStreamWAV::5004316922735472848::1729752341::1729752429::1::::<><>::
+power_up.wav::AudioStreamWAV::8195006019785682193::1729752341::1729752429::1::::<><>::
+tap.wav::AudioStreamWAV::6696414691359697633::1729752341::1729752429::1::::<><>::
+::res://assets/sprites/::1729752341
+coin.png::CompressedTexture2D::1490962918982759599::1729752341::1729752429::1::::<><>::
+fruit.png::CompressedTexture2D::3165352425723326682::1729752341::1729752429::1::::<><>::
+knight.png::CompressedTexture2D::220407792307045847::1729752341::1729752429::1::::<><>::
+platforms.png::CompressedTexture2D::7662352825741863392::1729752341::1729752429::1::::<><>::
+slime_green.png::CompressedTexture2D::625128628141878264::1729752341::1729752429::1::::<><>::
+slime_purple.png::CompressedTexture2D::5689445267907303597::1729752341::1729752429::1::::<><>::
+world_tileset.png::CompressedTexture2D::4021704543351533351::1729752341::1729752429::1::::<><>::
+::res://scenes/::1729752341
+coin.tscn::PackedScene::358242692448059223::1729752341::0::1::::<><>::uid://vih7akqqwtm2::::res://assets/sprites/coin.png<>res://scripts/coin.gd<>uid://di7v2upntk8q0::::res://assets/sounds/Grabación-_2_ (mp3cut.net).wav
+game.tscn::PackedScene::3376485971483785969::1729752341::0::1::::<><>::res://scripts/game_manager.gd<>uid://0sjjrc5e1kkv::::res://scenes/player.tscn<>uid://bxke5ergul0x4::::res://assets/sprites/world_tileset.png<>uid://dn52si7trbna6::::res://scenes/platform.tscn<>uid://fdsg70v5x872::::res://scenes/coin.tscn<>uid://en5w0txodttr::::res://scenes/platform_desert.tscn<>uid://dff200i6eo51p::::res://scenes/killzone.tscn<>uid://cci5hndj8xsoe::::res://scenes/slime.tscn<>uid://dskiyieecah1r::::res://assets/fonts/PixelOperator8.ttf
+killzone.tscn::PackedScene::7522213488548699147::1729752341::0::1::::<><>::res://scripts/killzone.gd
+music.tscn::PackedScene::5516948650869801498::1729752341::0::1::::<><>::uid://ekat0tv0qv1s::::res://assets/music/Cha-Cappella-–-Jimmy-Fontanez_-Media-Right-Productions-_No-Copyright-Music__5gj2WkkEcIE.wav
+platform.tscn::PackedScene::8135320324597087691::1729752341::0::1::::<><>::uid://dhfx3jjqq83iy::::res://assets/sprites/platforms.png
+platform_desert.tscn::PackedScene::309454426102709755::1729752341::0::1::::<><>::uid://dhfx3jjqq83iy::::res://assets/sprites/platforms.png
+player.tscn::PackedScene::1792443312959930977::1729752341::0::1::::<><>::res://scripts/player.gd<>uid://de1c4i6yuwpb::::res://assets/sprites/knight.png
+slime.tscn::PackedScene::4931568774926981584::1729752341::0::1::::<><>::uid://cncalkfwvlhv6::::res://assets/sprites/slime_purple.png<>res://scripts/slime.gd<>uid://dff200i6eo51p::::res://scenes/killzone.tscn
+::res://scripts/::1729752341
+coin.gd::GDScript::-1::1729752341::0::1::::<>Area2D<>::
+game_manager.gd::GDScript::-1::1729752341::0::1::::<>Node<>::
+killzone.gd::GDScript::-1::1729752341::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1729752341::0::1::::<>CharacterBody2D<>::
+slime.gd::GDScript::-1::1729752341::0::1::::<>Node2D<>::
